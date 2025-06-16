@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+
+    <include file="/db/changelog/users/changelog-users.xml"/>
+    <include file="/db/changelog/raitings/changelog-raitings.xml"/>
+    <include file="/db/changelog/users-raitings/changelog-users-raitings.xml"/>
+    <include file="/db/changelog/roles/changelog-roles.xml"/>
+    <include file="/db/changelog/users-roles/changelog-users-roles.xml"/>
+
+    <include file="/db/changelog/users/changelog-users-data.xml"/>
+    <include file="/db/changelog/raitings/changelog-raitings-data.xml"/>
+    <include file="/db/changelog/users-raitings/changelog-users-raitings-data.xml"/>
+    <include file="/db/changelog/roles/changelog-roles-data.xml"/>
+    <include file="/db/changelog/users-roles/changelog-users-roles-data.xml"/>
+
+</databaseChangeLog>
