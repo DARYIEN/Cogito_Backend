@@ -7,20 +7,24 @@
 
     <changeSet id="users" author="Nikita">
         <createTable tableName="users">
-
             <column name="id" type="BIGINT" autoIncrement="true">
-                <constraints primaryKey="true"/>
+                <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="phone_number" type="VARCHAR(15)"/>
-            <column name="password" type="VARCHAR(255)"/>
-            <column name="first_name" type="VARCHAR(255)"/>
-            <column name="last_name" type="VARCHAR(255)"/>
-            <column name="description" type="TEXT"/>
+            <column name="phone_number" type="VARCHAR(20)"/>
+            <column name="password" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="first_name" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="last_name" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="VARCHAR(1000)"/>
             <column name="birth_date" type="TIMESTAMP"/>
-            <column name="avatar" type="VARCHAR"/>
-            <column name="education" type="TEXT"/>
+            <column name="avatar" type="VARCHAR(255)"/>
+            <column name="education" type="VARCHAR(255)"/>
             <column name="created_at" type="TIMESTAMP"/>
-
         </createTable>
     </changeSet>
 

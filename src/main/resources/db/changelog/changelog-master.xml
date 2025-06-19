@@ -7,14 +7,14 @@
 
 
     <include file="/db/changelog/users/changelog-users.xml"/>
-    <include file="/db/changelog/raitings/changelog-raitings.xml"/>
-    <include file="/db/changelog/users-raitings/changelog-users-raitings.xml"/>
+    <include file="/db/changelog/ratings/changelog-ratings.xml"/>
+    <include file="/db/changelog/users-ratings/changelog-users-ratings.xml"/>
     <include file="/db/changelog/roles/changelog-roles.xml"/>
     <include file="/db/changelog/users-roles/changelog-users-roles.xml"/>
 
     <include file="/db/changelog/users/changelog-users-data.xml"/>
-    <include file="/db/changelog/raitings/changelog-raitings-data.xml"/>
-    <include file="/db/changelog/users-raitings/changelog-users-raitings-data.xml"/>
+    <include file="/db/changelog/ratings/changelog-ratings-data.xml"/>
+    <include file="/db/changelog/users-ratings/changelog-users-ratings-data.xml"/>
     <include file="/db/changelog/roles/changelog-roles-data.xml"/>
     <include file="/db/changelog/users-roles/changelog-users-roles-data.xml"/>
 
