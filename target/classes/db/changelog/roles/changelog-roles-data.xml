@@ -7,7 +7,7 @@
 
     <changeSet id="roles-data" author="Nikita">
         <loadData
-                file="datales-data.csv"
+                file="db/changelog/data/changelog-roles-data.csv"
                 tableName="roles"
                 separator=","
                 encoding="UTF-8"/>

@@ -5,10 +5,10 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
 
-    <changeSet id="users-data" author="Nikita">
+    <changeSet id="ratings-data" author="Nikita">
         <loadData
-                file="db/changelog/data/changelog-users-data.csv"
-                tableName="users"
+                file="db/changelog/data/changelog-ratings-data.csv"
+                tableName="ratings"
                 separator=","
                 encoding="UTF-8"/>
     </changeSet>
