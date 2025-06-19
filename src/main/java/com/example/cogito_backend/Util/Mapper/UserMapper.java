@@ -1,6 +1,6 @@
 package com.example.cogito_backend.Util.Mapper;
 
-import com.example.cogito_backend.Class.User;
+import com.example.cogito_backend.Entity.User;
 import com.example.cogito_backend.Dto.UserDto;
 
 public class UserMapper {
