@@ -5,87 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="311f9fe4-a941-4bd5-ba1e-f29200a1c607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Controller/RatingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Controller/UserRatingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Entity/UserRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Entity/UserRatingId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Entity/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Entity/UserRoleId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Exception/RatingAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Exception/RatingNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Exception/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Exception/UserAlreadyInRatingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Exception/UserRatingNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Repo/UserRatingRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Util/Mapper/RatingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-users-ratings-data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Class/Raiting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Entity/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Class/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Class/UserRaiting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Controller/RaitingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Controller/UserRaitingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Dto/RaitingDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Dto/RatingDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Repo/RaitingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Repo/RatingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Repo/UserRaitingRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Repo/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/RaitingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/RatingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/UserRaitingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/UserRatingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/impl/RaitingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/impl/RatingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/impl/UserRaitingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/impl/UserRatingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Util/Mapper/RaitingMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Util/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cogito_backend/Util/Mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-raitings-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-ratings-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-users-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-users-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-users-raitings-data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-users-roles-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/data/changelog-users-roles-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/raitings/changelog-raitings-data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/ratings/changelog-ratings-data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/raitings/changelog-raitings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/ratings/changelog-ratings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/roles/changelog-roles-data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/roles/changelog-roles-data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/roles/changelog-roles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/roles/changelog-roles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/users-raitings/changelog-users-raitings-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/users-raitings/changelog-users-raitings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/users-ratings/changelog-users-ratings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/users-roles/changelog-users-roles-data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/users-roles/changelog-users-roles-data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/users/changelog-users-data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/users/changelog-users-data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/users/changelog-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/users/changelog-users.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Class/Raiting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Class/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Class/UserRaiting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Controller/RaitingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Controller/UserRaitingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Dto/RaitingDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Repo/RaitingRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Repo/UserRaitingRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Repo/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Repo/UserRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/RaitingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/UserRaitingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/impl/RaitingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/impl/UserRaitingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Util/Mapper/RaitingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Util/Mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cogito_backend/Util/Mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog-master.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/raitings/changelog-raitings-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/roles/changelog-roles-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/users-raitings/changelog-users-raitings-data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/users-ratings/changelog-users-ratings-data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/users-roles/changelog-users-roles-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/changelog/users/changelog-users-data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +119,7 @@
       <workItem from="1750090024764" duration="1304000" />
       <workItem from="1750224704371" duration="11180000" />
       <workItem from="1750308944210" duration="598000" />
-      <workItem from="1750316049326" duration="11800000" />
+      <workItem from="1750316049326" duration="12570000" />
     </task>
     <servers />
   </component>
